@@ -29,7 +29,6 @@ public class SignUpFragment extends Fragment {
             Pattern.compile("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*).{8,15}$");
     private static final Pattern PhnNumber_Pattern = Pattern.compile("^([0-9]){10,12}$");
 
-
     EditText etName, etAddress, etEmail, etNumber, etPassword;
     String userName, userAddress, userEmail, userNumber, userPassword;
 
@@ -38,7 +37,6 @@ public class SignUpFragment extends Fragment {
     public SignUpFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -97,7 +95,6 @@ public class SignUpFragment extends Fragment {
             Intent i = new Intent(getActivity(), SignedIn.class);
             i.putExtra("userName",etName.getText().toString());
             startActivity(i);
-
 
         }
     }

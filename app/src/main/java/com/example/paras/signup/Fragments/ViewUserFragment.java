@@ -46,7 +46,7 @@ public class ViewUserFragment extends Fragment {
             String userNumber= usr.getNumber();
             String userPassword = usr.getPassword();
 
-            info = info+"\n\n"+"Name :"+userName+"\nAddress :"+userAddress+"\nEmail :"+userEmail+"\nNumber: "+userNumber
+            info = info+"\n\n"+"Name :"+userName+"\nAddress :"+userAddress+"\nEmail :"+userEmail+"\nPhone Number :"+userNumber
                     +"\nPassword :"+userPassword;
 
         }
