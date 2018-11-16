@@ -15,6 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:text="@string/enter_your_details"
         android:textAlignment="center"
@@ -58,7 +59,6 @@
             android:ems="10"
             android:hint="@string/email"
             android:inputType="textEmailAddress" />
-
 
         <EditText
             android:id="@+id/etNumber"
